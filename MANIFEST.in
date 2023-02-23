@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include blocos_dop *.css
+recursive-include blocos_dop *.csv
+recursive-include blocos_dop *.html
+recursive-include blocos_dop *.ico
+recursive-include blocos_dop *.js
+recursive-include blocos_dop *.json
+recursive-include blocos_dop *.md
+recursive-include blocos_dop *.png
+recursive-include blocos_dop *.py
+recursive-include blocos_dop *.svg
+recursive-include blocos_dop *.txt
+recursive-exclude blocos_dop *.pyc

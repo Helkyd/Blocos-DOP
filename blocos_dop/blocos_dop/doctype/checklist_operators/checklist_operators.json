@@ -1,0 +1,179 @@
+{
+ "autoname": "equipment_name",
+ "creation": "2023-02-24 01:05:28.949004",
+ "doctype": "DocType",
+ "document_type": "Setup",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "equipment_number",
+  "equipment_name",
+  "equipment_type",
+  "plant",
+  "dedicado",
+  "checklist_oper",
+  "report",
+  "start_date",
+  "end_date",
+  "operator_name",
+  "operator_signature",
+  "technician_name",
+  "technician_signature",
+  "certification",
+  "jsa",
+  "comments",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "equipment_number",
+   "fieldtype": "Data",
+   "label": "Equipment Number"
+  },
+  {
+   "fieldname": "equipment_name",
+   "fieldtype": "Data",
+   "label": "Equipment Name"
+  },
+  {
+   "fieldname": "equipment_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Equipment Type",
+   "options": "\nBroom Truck\nContainer Handler\nForklift Electric",
+   "reqd": 1
+  },
+  {
+   "fieldname": "plant",
+   "fieldtype": "Data",
+   "label": "Plant"
+  },
+  {
+   "fieldname": "dedicado",
+   "fieldtype": "Data",
+   "label": "Dedicado"
+  },
+  {
+   "fieldname": "checklist_oper",
+   "fieldtype": "Data",
+   "label": "Checklist Oper"
+  },
+  {
+   "fieldname": "report",
+   "fieldtype": "Text Editor",
+   "label": "Report"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Datetime",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Datetime",
+   "label": "End Date"
+  },
+  {
+   "fieldname": "operator_name",
+   "fieldtype": "Data",
+   "label": "Operator Name"
+  },
+  {
+   "fieldname": "operator_signature",
+   "fieldtype": "Signature",
+   "label": "Operator Signature"
+  },
+  {
+   "fieldname": "technician_name",
+   "fieldtype": "Data",
+   "label": "Technician Name"
+  },
+  {
+   "fieldname": "technician_signature",
+   "fieldtype": "Signature",
+   "label": "Technician Signature"
+  },
+  {
+   "fieldname": "certification",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Certification",
+   "options": "Available\nNot Available",
+   "reqd": 1
+  },
+  {
+   "fieldname": "jsa",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "JSA",
+   "options": "Yes\nNo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Text Editor",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Checklist Operators",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "is_submittable": 1,
+ "modified": "2023-02-24 01:12:20.220480",
+ "modified_by": "Administrator",
+ "module": "Blocos Dop",
+ "name": "Checklist Operators",
+ "name_case": "Title Case",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Blocos User",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Blocos Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

@@ -1,0 +1,1871 @@
+{
+ "creation": "2023-02-24 21:54:06.490702",
+ "doctype": "DocType",
+ "document_type": "Document",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "notepad_name",
+  "column_break_2",
+  "notepad_number",
+  "company",
+  "section_break_4",
+  "equipment_number",
+  "equipment_name",
+  "equipment_type",
+  "column_break_8",
+  "work_area",
+  "dedicado",
+  "section_break_11",
+  "general_inspection",
+  "column_break_14",
+  "sound_inpection",
+  "section_break_14",
+  "image1_general_inspection",
+  "image1__general_inspection",
+  "column_break_16",
+  "image2_general_inspection",
+  "image2__general_inspection",
+  "column_break_17",
+  "image1_sound_inspection",
+  "image1__sound_inspection",
+  "column_break_25",
+  "image2_sound_inspection",
+  "image2__sound_inspection",
+  "section_break_28",
+  "general_inspection_notes",
+  "column_break_162",
+  "sound_inspection_notes",
+  "section_break_29",
+  "tyres_inspection",
+  "column_break_30",
+  "broom_inspection",
+  "section_break_32",
+  "image1_tyres_inspection",
+  "image1__tyres_inspection",
+  "column_break_35",
+  "image2_tyres_inspection",
+  "image2__tyres_inspection",
+  "column_break_38",
+  "image1_broom_inspection",
+  "image1__broom_inspection",
+  "column_break_41",
+  "image2_broom_inspection",
+  "image2__broom_inspection",
+  "section_break_48",
+  "tyres_inspection_notes",
+  "column_break_51",
+  "broom_inspection_notes",
+  "section_break_44",
+  "suction_inspection",
+  "column_break_46",
+  "broom_auxiliar_engine",
+  "section_break_49",
+  "image1_suction_inspection",
+  "image1__suction_inspection",
+  "column_break_52",
+  "image2_suction_inspection",
+  "image2__suction_inspection",
+  "column_break_55",
+  "image1_broom_auxiliar_engine",
+  "image1__broom_auxiliar_engine",
+  "column_break_58",
+  "image2_broom_auxiliar_engine",
+  "image2__broom_auxiliar_engine",
+  "section_break_61",
+  "suction_inspection_notes",
+  "column_break_70",
+  "broom_auxiliary_engine_notes",
+  "section_break_72",
+  "hydraulic_oil_inspection",
+  "column_break_63",
+  "radiator_water_inspection",
+  "section_break_65",
+  "image1_hydraulic_oil_inspection",
+  "image1__hydraulic_oil_inspection",
+  "column_break_68",
+  "image2_hydraulic_oil_inspection",
+  "image2__hydraulic_oil_inspection",
+  "column_break_71",
+  "image1_radiator_water_inspection",
+  "image1__radiator_water_inspection",
+  "column_break_74",
+  "image2_radiator_water_inspection",
+  "image2__radiator_water_inspection",
+  "section_break_73",
+  "hydraulic_oil_inspection_notes",
+  "column_break_90",
+  "radiatior_water_inspection_notes",
+  "section_break_92",
+  "engine_oil_inspection",
+  "column_break_75",
+  "lights_and_alarms_inspection",
+  "section_break_81",
+  "image1_engine_oil_inspection",
+  "image1__engine_oil_inspection",
+  "column_break_87",
+  "image2_engine_oil_inspection",
+  "image2__engine_oil_inspection",
+  "column_break_88",
+  "image1_lights_and_alarms_inspection",
+  "image1__lights_and_alarms_inspection",
+  "column_break_89",
+  "image2_lights_and_alarms_inspection",
+  "image2__lights_and_alarms_inspection",
+  "section_break_85",
+  "engine_oil_inspection_notes",
+  "column_break_110",
+  "lights_and_alarms_inspection_notes",
+  "section_break_112",
+  "fire_extinguisher_inspection",
+  "column_break_185",
+  "cabine_inspection",
+  "section_break_182",
+  "image1_fire_extinguisher_inspection",
+  "image1__fire_extinguisher_inspection",
+  "column_break_91",
+  "image2_fire_extinguisher_inspection",
+  "image2__fire_extinguisher_inspection",
+  "column_break_92",
+  "image1_cabine_inspection",
+  "image1__cabine_inspection",
+  "column_break_93",
+  "image2_cabine_inspection",
+  "image2__cabine_inspection",
+  "section_break_97",
+  "fire_extinguisher_inspection_notes",
+  "column_break_130",
+  "cabine_inspection_notes",
+  "section_break_132",
+  "operational_inspection",
+  "column_break_99",
+  "panel_inspection",
+  "section_break_183",
+  "image1_operational_inspection",
+  "image1__operational_inspection",
+  "column_break_116",
+  "image2_operational_inspection",
+  "image2__operational_inspection",
+  "column_break_119",
+  "image1_panel_inspection",
+  "image1__panel_inspection",
+  "column_break_122",
+  "image2_panel_inspection",
+  "image2__panel_inspection",
+  "section_break_109",
+  "operational_inspection_notes",
+  "column_break_150",
+  "panel_inspection_notes",
+  "section_break_152",
+  "breaks_inspection",
+  "column_break_111",
+  "general_view",
+  "section_break_129",
+  "image1_breaks_inspection",
+  "image1__breaks_inspection",
+  "column_break_132",
+  "image2_breaks_inspection",
+  "image2__breaks_inspection",
+  "column_break_135",
+  "image1_general_view",
+  "image1__general_view",
+  "column_break_161",
+  "image2_general_view",
+  "image2__general_view",
+  "section_break_121",
+  "breaks_inspection_notes",
+  "column_break_170",
+  "general_view_notes",
+  "section_break_172",
+  "leakage_inspection",
+  "column_break_123",
+  "spreader_inspection",
+  "section_break_145",
+  "image1_leakage_inspection",
+  "image1__leakage_inspection",
+  "column_break_148",
+  "image2_leakage_inspection",
+  "image2__leakage_inspection",
+  "column_break_151",
+  "image1_spreader_inspection",
+  "image1__spreader_inspection",
+  "column_break_154",
+  "image2_spreader_inspection",
+  "image2__spreader_inspection",
+  "section_break_133",
+  "leakage_inspection_notes",
+  "column_break_190",
+  "spreader_inspection_notes",
+  "section_break_192",
+  "water_inspection",
+  "column_break_160",
+  "fuel_inspection",
+  "section_break_161",
+  "image1_water_inspection",
+  "image1__water_inspection",
+  "column_break_164",
+  "image2_water_inspection",
+  "image2__water_inspection",
+  "column_break_167",
+  "image1_fuel_inspection",
+  "image1__fuel_inspection",
+  "column_break_172",
+  "image2_fuel_inspection",
+  "image2__fuel_inspection",
+  "section_break_160",
+  "water_inspection_notes",
+  "column_break_210",
+  "fuel_inspection_notes",
+  "section_break_212",
+  "mirrors_inspection",
+  "column_break_147",
+  "seat_belt_inspection",
+  "section_break_177",
+  "image1_mirrors_inspection",
+  "image1__mirrors_inspection",
+  "column_break_180",
+  "image2_mirrors_inspection",
+  "image2__mirrors_inspection",
+  "column_break_183",
+  "image1_seat_belt_inspection",
+  "image1__seat_belt_inspection",
+  "column_break_186",
+  "image2_seat_belt_inspection",
+  "image2__seat_belt_inspection",
+  "section_break_157",
+  "mirrors_inspection_notes",
+  "column_break_230",
+  "seat_belt_inspection_notes",
+  "section_break_232",
+  "battery_inspection",
+  "column_break_159",
+  "hoses_inspection",
+  "section_break_193",
+  "image1_battery_inspection",
+  "image1__battery_inspection",
+  "column_break_196",
+  "image2_battery_inspection",
+  "image2__battery_inspection",
+  "column_break_199",
+  "image1_hoses_inspection",
+  "image1__hoses_inspection",
+  "column_break_202",
+  "image2_hoses_inspection",
+  "image2__hoses_inspection",
+  "section_break_169",
+  "battery_inspection_notes",
+  "column_break_250",
+  "hoses_inspection_notes",
+  "section_break_252",
+  "chains_inspection",
+  "column_break_171",
+  "forks_inspection",
+  "section_break_209",
+  "image1_chains_inspection",
+  "image1__chains_inspection",
+  "column_break_212",
+  "image2_chains_inspection",
+  "image2__chains_inspection",
+  "column_break_215",
+  "image1_forks_inspection",
+  "image1__forks_inspection",
+  "column_break_218",
+  "image2_forks_inspection",
+  "image2__forks_inspection",
+  "section_break_181",
+  "chains_inspection_notes",
+  "column_break_270",
+  "forks_inspection_notes",
+  "section_break_272",
+  "lights_inspection",
+  "column_break_184",
+  "alarm_inspection",
+  "section_break_225",
+  "image1_lights_inspection",
+  "image1__lights_inspection",
+  "column_break_228",
+  "image2_lights_inspection",
+  "image2__lights_inspection",
+  "column_break_231",
+  "image1_alarm_inspection",
+  "image1__alarm_inspection",
+  "column_break_234",
+  "image2_alarm_inspection",
+  "image2__alarm_inspection",
+  "section_break_237",
+  "lights_inspection_notes",
+  "column_break_290",
+  "alarm_inspection_notes",
+  "section_break_292",
+  "report",
+  "section_break_239",
+  "start_date",
+  "operator_name",
+  "operator_signature",
+  "column_break_243",
+  "end_date",
+  "technician_name",
+  "technician_signature",
+  "section_break_247",
+  "certification",
+  "column_break_249",
+  "jsa",
+  "section_break_306",
+  "comments",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "equipment_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Equipment Type",
+   "options": "\nBroom Truck\nContainer Handler\nForklift Electric",
+   "reqd": 1
+  },
+  {
+   "default": "No",
+   "fieldname": "general_inspection",
+   "fieldtype": "Select",
+   "label": "General Inspection",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "image1__general_inspection",
+   "fieldtype": "Image",
+   "label": "Image1_ General Inspection"
+  },
+  {
+   "fieldname": "image2_general_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image2 General Inspection"
+  },
+  {
+   "fieldname": "image2__general_inspection",
+   "fieldtype": "Image",
+   "label": "Image2_ General Inspection"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Notepad DOP_v1",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "default": "No",
+   "fieldname": "sound_inpection",
+   "fieldtype": "Select",
+   "label": "Sound Inpection",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "image1_sound_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image1 Sound Inspection"
+  },
+  {
+   "fieldname": "image1__sound_inspection",
+   "fieldtype": "Image",
+   "label": "Image1_ Sound Inspection"
+  },
+  {
+   "fieldname": "image2_sound_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image2 Sound Inspection"
+  },
+  {
+   "fieldname": "image2__sound_inspection",
+   "fieldtype": "Image",
+   "label": "Image2_ Sound Inspection"
+  },
+  {
+   "default": "No",
+   "fieldname": "tyres_inspection",
+   "fieldtype": "Select",
+   "label": "Tyres Inspection",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "image1_tyres_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image1 Tyres Inspection"
+  },
+  {
+   "fieldname": "image1__tyres_inspection",
+   "fieldtype": "Image",
+   "label": "Image1_ Tyres Inspection"
+  },
+  {
+   "fieldname": "image2_tyres_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image2 Tyres Inspection"
+  },
+  {
+   "fieldname": "image2__tyres_inspection",
+   "fieldtype": "Image",
+   "label": "Image2_ Tyres Inspection"
+  },
+  {
+   "default": "No",
+   "fieldname": "broom_inspection",
+   "fieldtype": "Select",
+   "label": "Broom Inspection",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "image1_broom_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image1 Broom Inspection"
+  },
+  {
+   "fieldname": "image1__broom_inspection",
+   "fieldtype": "Image",
+   "label": "Image1_ Broom Inspection"
+  },
+  {
+   "fieldname": "image2_broom_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image2 Broom Inspection"
+  },
+  {
+   "fieldname": "image2__broom_inspection",
+   "fieldtype": "Image",
+   "label": "Image2_ Broom Inspection"
+  },
+  {
+   "default": "No",
+   "fieldname": "suction_inspection",
+   "fieldtype": "Select",
+   "label": "Suction Inspection",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "image1_suction_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image1 Suction Inspection"
+  },
+  {
+   "fieldname": "image1__suction_inspection",
+   "fieldtype": "Image",
+   "label": "Image1_ Suction Inspection"
+  },
+  {
+   "fieldname": "image2_suction_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image2 Suction Inspection"
+  },
+  {
+   "fieldname": "image2__suction_inspection",
+   "fieldtype": "Image",
+   "label": "Image2_ Suction Inspection"
+  },
+  {
+   "default": "No",
+   "fieldname": "broom_auxiliar_engine",
+   "fieldtype": "Select",
+   "label": "Broom Auxiliar Engine",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "image1_broom_auxiliar_engine",
+   "fieldtype": "Attach Image",
+   "label": "Image1 Broom Auxiliar Engine"
+  },
+  {
+   "fieldname": "image1__broom_auxiliar_engine",
+   "fieldtype": "Image",
+   "label": "Image1_ Broom Auxiliar Engine"
+  },
+  {
+   "fieldname": "image2_broom_auxiliar_engine",
+   "fieldtype": "Attach Image",
+   "label": "Image2 Broom Auxiliar Engine"
+  },
+  {
+   "fieldname": "image2__broom_auxiliar_engine",
+   "fieldtype": "Image",
+   "label": "Image2_ Broom Auxiliar Engine"
+  },
+  {
+   "default": "No",
+   "fieldname": "hydraulic_oil_inspection",
+   "fieldtype": "Select",
+   "label": "Hydraulic Oil Inspection",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "image1_hydraulic_oil_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image1 Hydraulic Oil Inspection"
+  },
+  {
+   "fieldname": "image1__hydraulic_oil_inspection",
+   "fieldtype": "Image",
+   "label": "Image1_ Hydraulic Oil Inspection"
+  },
+  {
+   "fieldname": "image2_hydraulic_oil_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image2 Hydraulic Oil Inspection"
+  },
+  {
+   "fieldname": "image2__hydraulic_oil_inspection",
+   "fieldtype": "Image",
+   "label": "Image2_ Hydraulic Oil Inspection"
+  },
+  {
+   "default": "No",
+   "fieldname": "radiator_water_inspection",
+   "fieldtype": "Select",
+   "label": "Radiator Water Inspection",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "image1_radiator_water_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image1 Radiator Water Inspection"
+  },
+  {
+   "fieldname": "image1__radiator_water_inspection",
+   "fieldtype": "Image",
+   "label": "Image1_ Radiator Water Inspection"
+  },
+  {
+   "fieldname": "image2_radiator_water_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image2 Radiator Water Inspection"
+  },
+  {
+   "fieldname": "image2__radiator_water_inspection",
+   "fieldtype": "Image",
+   "label": "Image2_ Radiator Water Inspection"
+  },
+  {
+   "default": "No",
+   "fieldname": "engine_oil_inspection",
+   "fieldtype": "Select",
+   "label": "Engine Oil Inspection",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "image1_engine_oil_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image1 Engine Oil Inspection"
+  },
+  {
+   "fieldname": "image1__engine_oil_inspection",
+   "fieldtype": "Image",
+   "label": "Image1_ Engine Oil Inspection"
+  },
+  {
+   "fieldname": "image2_engine_oil_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image2 Engine Oil Inspection"
+  },
+  {
+   "fieldname": "image2__engine_oil_inspection",
+   "fieldtype": "Image",
+   "label": "Image2_ Engine Oil Inspection"
+  },
+  {
+   "default": "No",
+   "fieldname": "lights_and_alarms_inspection",
+   "fieldtype": "Select",
+   "label": "Lights and Alarms Inspection",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "image1_lights_and_alarms_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image1 Lights and Alarms Inspection"
+  },
+  {
+   "fieldname": "image1__lights_and_alarms_inspection",
+   "fieldtype": "Image",
+   "label": "Image1_ Lights and Alarms Inspection"
+  },
+  {
+   "fieldname": "image2_lights_and_alarms_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image2 Lights and Alarms Inspection"
+  },
+  {
+   "fieldname": "image2__lights_and_alarms_inspection",
+   "fieldtype": "Image",
+   "label": "Image2_ Lights and Alarms Inspection"
+  },
+  {
+   "default": "No",
+   "fieldname": "fire_extinguisher_inspection",
+   "fieldtype": "Select",
+   "label": "Fire Extinguisher Inspection",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "image1_fire_extinguisher_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image1 Fire Extinguisher Inspection"
+  },
+  {
+   "fieldname": "image1__fire_extinguisher_inspection",
+   "fieldtype": "Image",
+   "label": "Image1_ Fire Extinguisher Inspection"
+  },
+  {
+   "fieldname": "image2_fire_extinguisher_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image2 Fire Extinguisher Inspection"
+  },
+  {
+   "fieldname": "image2__fire_extinguisher_inspection",
+   "fieldtype": "Image",
+   "label": "Image2_ Fire Extinguisher Inspection"
+  },
+  {
+   "default": "No",
+   "fieldname": "cabine_inspection",
+   "fieldtype": "Select",
+   "label": "Cabine Inspection",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "image1_cabine_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image1 Cabine Inspection"
+  },
+  {
+   "fieldname": "image1__cabine_inspection",
+   "fieldtype": "Image",
+   "label": "Image1_ Cabine Inspection"
+  },
+  {
+   "fieldname": "image2_cabine_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image2 Cabine Inspection"
+  },
+  {
+   "fieldname": "image2__cabine_inspection",
+   "fieldtype": "Image",
+   "label": "Image2_ Cabine Inspection"
+  },
+  {
+   "default": "No",
+   "fieldname": "operational_inspection",
+   "fieldtype": "Select",
+   "label": "Operational Inspection",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "image1_operational_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image1 Operational Inspection"
+  },
+  {
+   "fieldname": "image1__operational_inspection",
+   "fieldtype": "Image",
+   "label": "Image1_ Operational Inspection"
+  },
+  {
+   "fieldname": "image2_operational_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image2 Operational Inspection"
+  },
+  {
+   "fieldname": "image2__operational_inspection",
+   "fieldtype": "Image",
+   "label": "Image2_ Operational Inspection"
+  },
+  {
+   "default": "No",
+   "fieldname": "panel_inspection",
+   "fieldtype": "Select",
+   "label": "Panel Inspection",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "image1_panel_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image1 Panel Inspection"
+  },
+  {
+   "fieldname": "image1__panel_inspection",
+   "fieldtype": "Image",
+   "label": "Image1_ Panel Inspection"
+  },
+  {
+   "fieldname": "image2_panel_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image2 Panel Inspection"
+  },
+  {
+   "fieldname": "image2__panel_inspection",
+   "fieldtype": "Image",
+   "label": "Image2_ Panel Inspection"
+  },
+  {
+   "default": "No",
+   "fieldname": "breaks_inspection",
+   "fieldtype": "Select",
+   "label": "Breaks Inspection",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "image1_breaks_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image1 Breaks Inspection"
+  },
+  {
+   "fieldname": "image1__breaks_inspection",
+   "fieldtype": "Image",
+   "label": "Image1_ Breaks Inspection"
+  },
+  {
+   "fieldname": "image2_breaks_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image2 Breaks Inspection"
+  },
+  {
+   "fieldname": "image2__breaks_inspection",
+   "fieldtype": "Image",
+   "label": "Image2_ Breaks Inspection"
+  },
+  {
+   "default": "No",
+   "fieldname": "general_view",
+   "fieldtype": "Select",
+   "label": "General View",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "image1_general_view",
+   "fieldtype": "Attach Image",
+   "label": "Image1 General View"
+  },
+  {
+   "fieldname": "image1__general_view",
+   "fieldtype": "Image",
+   "label": "Image1_ General View"
+  },
+  {
+   "fieldname": "image2_general_view",
+   "fieldtype": "Attach Image",
+   "label": "Image2 General View"
+  },
+  {
+   "fieldname": "image2__general_view",
+   "fieldtype": "Image",
+   "label": "Image2_ General View"
+  },
+  {
+   "default": "No",
+   "fieldname": "leakage_inspection",
+   "fieldtype": "Select",
+   "label": "Leakage Inspection",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "image1_leakage_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image1 Leakage Inspection"
+  },
+  {
+   "fieldname": "image1__leakage_inspection",
+   "fieldtype": "Image",
+   "label": "Image1_ Leakage Inspection"
+  },
+  {
+   "fieldname": "image2_leakage_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image2 Leakage Inspection"
+  },
+  {
+   "fieldname": "image2__leakage_inspection",
+   "fieldtype": "Image",
+   "label": "Image2_ Leakage Inspection"
+  },
+  {
+   "default": "No",
+   "fieldname": "spreader_inspection",
+   "fieldtype": "Select",
+   "label": "Spreader Inspection",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "image1_spreader_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image1 Spreader Inspection"
+  },
+  {
+   "fieldname": "image1__spreader_inspection",
+   "fieldtype": "Image",
+   "label": "Image1_ Spreader Inspection"
+  },
+  {
+   "fieldname": "image2_spreader_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image2 Spreader Inspection"
+  },
+  {
+   "fieldname": "image2__spreader_inspection",
+   "fieldtype": "Image",
+   "label": "Image2_ Spreader Inspection"
+  },
+  {
+   "default": "No",
+   "fieldname": "water_inspection",
+   "fieldtype": "Select",
+   "label": "Water Inspection",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "image1_water_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image1 Water Inspection"
+  },
+  {
+   "fieldname": "image1__water_inspection",
+   "fieldtype": "Image",
+   "label": "Image1_ Water Inspection"
+  },
+  {
+   "fieldname": "image2_water_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image2 Water Inspection"
+  },
+  {
+   "fieldname": "image2__water_inspection",
+   "fieldtype": "Image",
+   "label": "Image2_ Water Inspection"
+  },
+  {
+   "default": "No",
+   "fieldname": "fuel_inspection",
+   "fieldtype": "Select",
+   "label": "Fuel Inspection",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "image1_fuel_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image1 Fuel Inspection"
+  },
+  {
+   "fieldname": "image1__fuel_inspection",
+   "fieldtype": "Image",
+   "label": "Image1_ Fuel Inspection"
+  },
+  {
+   "fieldname": "image2_fuel_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image2 Fuel Inspection"
+  },
+  {
+   "fieldname": "image2__fuel_inspection",
+   "fieldtype": "Image",
+   "label": "Image2_ Fuel Inspection"
+  },
+  {
+   "default": "No",
+   "fieldname": "mirrors_inspection",
+   "fieldtype": "Select",
+   "label": "Mirrors Inspection",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "image1_mirrors_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image1 Mirrors Inspection"
+  },
+  {
+   "fieldname": "image1__mirrors_inspection",
+   "fieldtype": "Image",
+   "label": "Image1_ Mirrors Inspection"
+  },
+  {
+   "fieldname": "image2_mirrors_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image2 Mirrors Inspection"
+  },
+  {
+   "fieldname": "image2__mirrors_inspection",
+   "fieldtype": "Image",
+   "label": "Image2_ Mirrors Inspection"
+  },
+  {
+   "default": "No",
+   "fieldname": "seat_belt_inspection",
+   "fieldtype": "Select",
+   "label": "Seat Belt Inspection",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "image1_seat_belt_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image1 Seat Belt Inspection"
+  },
+  {
+   "fieldname": "image1__seat_belt_inspection",
+   "fieldtype": "Image",
+   "label": "Image1_ Seat Belt Inspection"
+  },
+  {
+   "fieldname": "image2_seat_belt_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image2 Seat Belt Inspection"
+  },
+  {
+   "fieldname": "image2__seat_belt_inspection",
+   "fieldtype": "Image",
+   "label": "Image2_ Seat Belt Inspection"
+  },
+  {
+   "default": "No",
+   "fieldname": "battery_inspection",
+   "fieldtype": "Select",
+   "label": "Battery Inspection",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "image1_battery_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image1 Battery Inspection"
+  },
+  {
+   "fieldname": "image1__battery_inspection",
+   "fieldtype": "Image",
+   "label": "Image1_ Battery Inspection"
+  },
+  {
+   "fieldname": "image2_battery_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image2 Battery Inspection"
+  },
+  {
+   "fieldname": "image2__battery_inspection",
+   "fieldtype": "Image",
+   "label": "Image2_ Battery Inspection"
+  },
+  {
+   "default": "No",
+   "fieldname": "hoses_inspection",
+   "fieldtype": "Select",
+   "label": "Hoses Inspection",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "image1_hoses_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image1 Hoses Inspection"
+  },
+  {
+   "fieldname": "image1__hoses_inspection",
+   "fieldtype": "Image",
+   "label": "Image1_ Hoses Inspection"
+  },
+  {
+   "fieldname": "image2_hoses_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image2 Hoses Inspection"
+  },
+  {
+   "fieldname": "image2__hoses_inspection",
+   "fieldtype": "Image",
+   "label": "Image2_ Hoses Inspection"
+  },
+  {
+   "default": "No",
+   "fieldname": "chains_inspection",
+   "fieldtype": "Select",
+   "label": "Chains Inspection",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "image1_chains_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image1 Chains Inspection"
+  },
+  {
+   "fieldname": "image1__chains_inspection",
+   "fieldtype": "Image",
+   "label": "Image1_ Chains Inspection"
+  },
+  {
+   "fieldname": "image2_chains_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image2 Chains Inspection"
+  },
+  {
+   "fieldname": "image2__chains_inspection",
+   "fieldtype": "Image",
+   "label": "Image2_ Chains Inspection"
+  },
+  {
+   "default": "No",
+   "fieldname": "forks_inspection",
+   "fieldtype": "Select",
+   "label": "Forks Inspection",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "image1_forks_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image1 Forks Inspection"
+  },
+  {
+   "fieldname": "image1__forks_inspection",
+   "fieldtype": "Image",
+   "label": "Image1_ Forks Inspection"
+  },
+  {
+   "fieldname": "image2_forks_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image2 Forks Inspection"
+  },
+  {
+   "fieldname": "image2__forks_inspection",
+   "fieldtype": "Image",
+   "label": "Image2_ Forks Inspection"
+  },
+  {
+   "default": "No",
+   "fieldname": "lights_inspection",
+   "fieldtype": "Select",
+   "label": "Lights Inspection",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "image1_lights_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image1 Lights Inspection"
+  },
+  {
+   "fieldname": "image1__lights_inspection",
+   "fieldtype": "Image",
+   "label": "Image1_ Lights Inspection"
+  },
+  {
+   "fieldname": "image2_lights_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image2 Lights Inspection"
+  },
+  {
+   "fieldname": "image2__lights_inspection",
+   "fieldtype": "Image",
+   "label": "Image2_ Lights Inspection"
+  },
+  {
+   "default": "No",
+   "fieldname": "alarm_inspection",
+   "fieldtype": "Select",
+   "label": "Alarm Inspection",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "image1_alarm_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image1 Alarm Inspection"
+  },
+  {
+   "fieldname": "image1__alarm_inspection",
+   "fieldtype": "Image",
+   "label": "Image1_ Alarm Inspection"
+  },
+  {
+   "fieldname": "image2_alarm_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image2 Alarm Inspection"
+  },
+  {
+   "fieldname": "image2__alarm_inspection",
+   "fieldtype": "Image",
+   "label": "Image2_ Alarm Inspection"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Notepad DOP_v1",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "equipment_number",
+   "fieldtype": "Link",
+   "label": "Equipment Number",
+   "options": "Item"
+  },
+  {
+   "fieldname": "equipment_name",
+   "fieldtype": "Data",
+   "label": "Equipment Name"
+  },
+  {
+   "fieldname": "work_area",
+   "fieldtype": "Select",
+   "label": "Work Area",
+   "options": "\nPlant\nWorkshop\nOCC",
+   "reqd": 1
+  },
+  {
+   "fieldname": "dedicado",
+   "fieldtype": "Data",
+   "label": "Dedicado"
+  },
+  {
+   "fieldname": "report",
+   "fieldtype": "Text Editor",
+   "label": "Report"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Datetime",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Datetime",
+   "label": "End Date"
+  },
+  {
+   "fieldname": "operator_name",
+   "fieldtype": "Data",
+   "label": "Operator Name"
+  },
+  {
+   "fieldname": "operator_signature",
+   "fieldtype": "Signature",
+   "label": "Operator Signature"
+  },
+  {
+   "fieldname": "technician_name",
+   "fieldtype": "Data",
+   "label": "Technician Name"
+  },
+  {
+   "fieldname": "technician_signature",
+   "fieldtype": "Signature",
+   "label": "Technician Signature"
+  },
+  {
+   "fieldname": "certification",
+   "fieldtype": "Select",
+   "label": "Certification",
+   "options": "Available\nNot Available"
+  },
+  {
+   "default": "No",
+   "fieldname": "jsa",
+   "fieldtype": "Select",
+   "label": "JSA",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Text Editor",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "notepad_name",
+   "fieldtype": "Data",
+   "label": "Notepad Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "notepad_number",
+   "fieldtype": "Data",
+   "label": "Notepad Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "image1_general_inspection",
+   "fieldtype": "Attach Image",
+   "label": "Image1 General Inspection"
+  },
+  {
+   "fieldname": "column_break_16",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_14",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_14",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_25",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_28",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_30",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_32",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_35",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_38",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_41",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_44",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_46",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_29",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_49",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_52",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_55",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_58",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_61",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_63",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_73",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_75",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_85",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_87",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_97",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_99",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_109",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_111",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_121",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_123",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_133",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_135",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_145",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_147",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_157",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_159",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_169",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_171",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_181",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_183",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_65",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_68",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_71",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_74",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_81",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_88",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_89",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_90",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_182",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_91",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_92",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_93",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_183",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_116",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_119",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_122",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_129",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_132",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_160",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_161",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_160",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_148",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_151",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_154",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_161",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_164",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_167",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_170",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_177",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_180",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_184",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_186",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_193",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_196",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_199",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_202",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_209",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_212",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_215",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_218",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_225",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_228",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_231",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_234",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_237",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_239",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_243",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_247",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_249",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "general_inspection_notes",
+   "fieldtype": "Small Text",
+   "label": "General inspection Notes"
+  },
+  {
+   "fieldname": "sound_inspection_notes",
+   "fieldtype": "Small Text",
+   "label": "Sound inspection Notes"
+  },
+  {
+   "fieldname": "column_break_162",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tyres_inspection_notes",
+   "fieldtype": "Small Text",
+   "label": "Tyres Inspection Notes"
+  },
+  {
+   "fieldname": "column_break_51",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "broom_inspection_notes",
+   "fieldtype": "Small Text",
+   "label": "Broom Inspection Notes"
+  },
+  {
+   "fieldname": "section_break_48",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "suction_inspection_notes",
+   "fieldtype": "Small Text",
+   "label": "Suction Inspection Notes"
+  },
+  {
+   "fieldname": "column_break_70",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "broom_auxiliary_engine_notes",
+   "fieldtype": "Small Text",
+   "label": "Broom Auxiliary Engine Notes"
+  },
+  {
+   "fieldname": "section_break_72",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "hydraulic_oil_inspection_notes",
+   "fieldtype": "Small Text",
+   "label": "Hydraulic Oil Inspection Notes"
+  },
+  {
+   "fieldname": "radiatior_water_inspection_notes",
+   "fieldtype": "Small Text",
+   "label": "Radiatior Water Inspection Notes"
+  },
+  {
+   "fieldname": "section_break_92",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_185",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "engine_oil_inspection_notes",
+   "fieldtype": "Small Text",
+   "label": "Engine Oil Inspection Notes"
+  },
+  {
+   "fieldname": "column_break_110",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "lights_and_alarms_inspection_notes",
+   "fieldtype": "Small Text",
+   "label": "Lights and Alarms Inspection Notes"
+  },
+  {
+   "fieldname": "section_break_112",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "fire_extinguisher_inspection_notes",
+   "fieldtype": "Small Text",
+   "label": "Fire Extinguisher Inspection Notes"
+  },
+  {
+   "fieldname": "column_break_130",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cabine_inspection_notes",
+   "fieldtype": "Small Text",
+   "label": "Cabine Inspection Notes"
+  },
+  {
+   "fieldname": "section_break_132",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "operational_inspection_notes",
+   "fieldtype": "Small Text",
+   "label": "Operational Inspection Notes"
+  },
+  {
+   "fieldname": "column_break_150",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "panel_inspection_notes",
+   "fieldtype": "Small Text",
+   "label": "Panel Inspection Notes"
+  },
+  {
+   "fieldname": "section_break_152",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "breaks_inspection_notes",
+   "fieldtype": "Small Text",
+   "label": "Breaks Inspection Notes"
+  },
+  {
+   "fieldname": "general_view_notes",
+   "fieldtype": "Small Text",
+   "label": "General View Notes"
+  },
+  {
+   "fieldname": "section_break_172",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_172",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "leakage_inspection_notes",
+   "fieldtype": "Small Text",
+   "label": "Leakage Inspection Notes"
+  },
+  {
+   "fieldname": "column_break_190",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "spreader_inspection_notes",
+   "fieldtype": "Small Text",
+   "label": "Spreader Inspection Notes"
+  },
+  {
+   "fieldname": "section_break_192",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "water_inspection_notes",
+   "fieldtype": "Small Text",
+   "label": "Water Inspection Notes"
+  },
+  {
+   "fieldname": "column_break_210",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fuel_inspection_notes",
+   "fieldtype": "Small Text",
+   "label": "Fuel Inspection Notes"
+  },
+  {
+   "fieldname": "section_break_212",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "mirrors_inspection_notes",
+   "fieldtype": "Small Text",
+   "label": "Mirrors Inspection Notes"
+  },
+  {
+   "fieldname": "column_break_230",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "seat_belt_inspection_notes",
+   "fieldtype": "Small Text",
+   "label": "Seat Belt Inspection Notes"
+  },
+  {
+   "fieldname": "section_break_232",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "battery_inspection_notes",
+   "fieldtype": "Small Text",
+   "label": "Battery Inspection Notes"
+  },
+  {
+   "fieldname": "column_break_250",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "hoses_inspection_notes",
+   "fieldtype": "Small Text",
+   "label": "Hoses Inspection Notes"
+  },
+  {
+   "fieldname": "section_break_252",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "chains_inspection_notes",
+   "fieldtype": "Small Text",
+   "label": "Chains Inspection Notes"
+  },
+  {
+   "fieldname": "column_break_270",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "forks_inspection_notes",
+   "fieldtype": "Small Text",
+   "label": "Forks Inspection Notes"
+  },
+  {
+   "fieldname": "section_break_272",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "lights_inspection_notes",
+   "fieldtype": "Small Text",
+   "label": "Lights Inspection Notes"
+  },
+  {
+   "fieldname": "column_break_290",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "alarm_inspection_notes",
+   "fieldtype": "Small Text",
+   "label": "Alarm Inspection Notes"
+  },
+  {
+   "fieldname": "section_break_292",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_306",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "is_submittable": 1,
+ "modified": "2023-02-25 00:03:54.853914",
+ "modified_by": "Administrator",
+ "module": "Blocos Dop",
+ "name": "Notepad DOP_v1",
+ "name_case": "Title Case",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Blocos User",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Blocos Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

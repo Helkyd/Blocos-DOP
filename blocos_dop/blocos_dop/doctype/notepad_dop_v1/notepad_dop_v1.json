@@ -333,7 +333,8 @@
   {
    "fieldname": "image1__general_inspection",
    "fieldtype": "Image",
-   "label": "Image1_ General Inspection"
+   "label": "Image1_ General Inspection",
+   "options": "image1_general_inspection"
   },
   {
    "fieldname": "image2_general_inspection",
@@ -343,7 +344,8 @@
   {
    "fieldname": "image2__general_inspection",
    "fieldtype": "Image",
-   "label": "Image2_ General Inspection"
+   "label": "Image2_ General Inspection",
+   "options": "image2_general_inspection"
   },
   {
    "fieldname": "amended_from",
@@ -369,7 +371,8 @@
   {
    "fieldname": "image1__sound_inspection",
    "fieldtype": "Image",
-   "label": "Image1_ Sound Inspection"
+   "label": "Image1_ Sound Inspection",
+   "options": "image1_sound_inspection"
   },
   {
    "fieldname": "image2_sound_inspection",
@@ -379,7 +382,8 @@
   {
    "fieldname": "image2__sound_inspection",
    "fieldtype": "Image",
-   "label": "Image2_ Sound Inspection"
+   "label": "Image2_ Sound Inspection",
+   "options": "image2_sound_inspection"
   },
   {
    "default": "No",
@@ -396,7 +400,8 @@
   {
    "fieldname": "image1__tyres_inspection",
    "fieldtype": "Image",
-   "label": "Image1_ Tyres Inspection"
+   "label": "Image1_ Tyres Inspection",
+   "options": "image1_tyres_inspection"
   },
   {
    "fieldname": "image2_tyres_inspection",
@@ -406,7 +411,8 @@
   {
    "fieldname": "image2__tyres_inspection",
    "fieldtype": "Image",
-   "label": "Image2_ Tyres Inspection"
+   "label": "Image2_ Tyres Inspection",
+   "options": "image2_tyres_inspection"
   },
   {
    "default": "No",
@@ -423,7 +429,8 @@
   {
    "fieldname": "image1__broom_inspection",
    "fieldtype": "Image",
-   "label": "Image1_ Broom Inspection"
+   "label": "Image1_ Broom Inspection",
+   "options": "image1_broom_inspection"
   },
   {
    "fieldname": "image2_broom_inspection",
@@ -433,7 +440,8 @@
   {
    "fieldname": "image2__broom_inspection",
    "fieldtype": "Image",
-   "label": "Image2_ Broom Inspection"
+   "label": "Image2_ Broom Inspection",
+   "options": "image2_broom_inspection"
   },
   {
    "default": "No",
@@ -450,7 +458,8 @@
   {
    "fieldname": "image1__suction_inspection",
    "fieldtype": "Image",
-   "label": "Image1_ Suction Inspection"
+   "label": "Image1_ Suction Inspection",
+   "options": "image1_suction_inspection"
   },
   {
    "fieldname": "image2_suction_inspection",
@@ -460,7 +469,8 @@
   {
    "fieldname": "image2__suction_inspection",
    "fieldtype": "Image",
-   "label": "Image2_ Suction Inspection"
+   "label": "Image2_ Suction Inspection",
+   "options": "image2_suction_inspection"
   },
   {
    "default": "No",
@@ -477,7 +487,8 @@
   {
    "fieldname": "image1__broom_auxiliar_engine",
    "fieldtype": "Image",
-   "label": "Image1_ Broom Auxiliar Engine"
+   "label": "Image1_ Broom Auxiliar Engine",
+   "options": "image1_broom_auxiliar_engine"
   },
   {
    "fieldname": "image2_broom_auxiliar_engine",
@@ -487,7 +498,8 @@
   {
    "fieldname": "image2__broom_auxiliar_engine",
    "fieldtype": "Image",
-   "label": "Image2_ Broom Auxiliar Engine"
+   "label": "Image2_ Broom Auxiliar Engine",
+   "options": "image2_broom_auxiliar_engine"
   },
   {
    "default": "No",
@@ -504,7 +516,8 @@
   {
    "fieldname": "image1__hydraulic_oil_inspection",
    "fieldtype": "Image",
-   "label": "Image1_ Hydraulic Oil Inspection"
+   "label": "Image1_ Hydraulic Oil Inspection",
+   "options": "image1_hydraulic_oil_inspection"
   },
   {
    "fieldname": "image2_hydraulic_oil_inspection",
@@ -514,7 +527,8 @@
   {
    "fieldname": "image2__hydraulic_oil_inspection",
    "fieldtype": "Image",
-   "label": "Image2_ Hydraulic Oil Inspection"
+   "label": "Image2_ Hydraulic Oil Inspection",
+   "options": "image2_hydraulic_oil_inspection"
   },
   {
    "default": "No",
@@ -531,7 +545,8 @@
   {
    "fieldname": "image1__radiator_water_inspection",
    "fieldtype": "Image",
-   "label": "Image1_ Radiator Water Inspection"
+   "label": "Image1_ Radiator Water Inspection",
+   "options": "image1_radiator_water_inspection"
   },
   {
    "fieldname": "image2_radiator_water_inspection",
@@ -541,7 +556,8 @@
   {
    "fieldname": "image2__radiator_water_inspection",
    "fieldtype": "Image",
-   "label": "Image2_ Radiator Water Inspection"
+   "label": "Image2_ Radiator Water Inspection",
+   "options": "image2_radiator_water_inspection"
   },
   {
    "default": "No",
@@ -558,7 +574,8 @@
   {
    "fieldname": "image1__engine_oil_inspection",
    "fieldtype": "Image",
-   "label": "Image1_ Engine Oil Inspection"
+   "label": "Image1_ Engine Oil Inspection",
+   "options": "image1_engine_oil_inspection"
   },
   {
    "fieldname": "image2_engine_oil_inspection",
@@ -568,7 +585,8 @@
   {
    "fieldname": "image2__engine_oil_inspection",
    "fieldtype": "Image",
-   "label": "Image2_ Engine Oil Inspection"
+   "label": "Image2_ Engine Oil Inspection",
+   "options": "image2_engine_oil_inspection"
   },
   {
    "default": "No",
@@ -585,7 +603,8 @@
   {
    "fieldname": "image1__lights_and_alarms_inspection",
    "fieldtype": "Image",
-   "label": "Image1_ Lights and Alarms Inspection"
+   "label": "Image1_ Lights and Alarms Inspection",
+   "options": "image1_lights_and_alarms_inspection"
   },
   {
    "fieldname": "image2_lights_and_alarms_inspection",
@@ -595,7 +614,8 @@
   {
    "fieldname": "image2__lights_and_alarms_inspection",
    "fieldtype": "Image",
-   "label": "Image2_ Lights and Alarms Inspection"
+   "label": "Image2_ Lights and Alarms Inspection",
+   "options": "image2_lights_and_alarms_inspection"
   },
   {
    "default": "No",
@@ -612,7 +632,8 @@
   {
    "fieldname": "image1__fire_extinguisher_inspection",
    "fieldtype": "Image",
-   "label": "Image1_ Fire Extinguisher Inspection"
+   "label": "Image1_ Fire Extinguisher Inspection",
+   "options": "image1_fire_extinguisher_inspection"
   },
   {
    "fieldname": "image2_fire_extinguisher_inspection",
@@ -622,7 +643,8 @@
   {
    "fieldname": "image2__fire_extinguisher_inspection",
    "fieldtype": "Image",
-   "label": "Image2_ Fire Extinguisher Inspection"
+   "label": "Image2_ Fire Extinguisher Inspection",
+   "options": "image2_fire_extinguisher_inspection"
   },
   {
    "default": "No",
@@ -639,7 +661,8 @@
   {
    "fieldname": "image1__cabine_inspection",
    "fieldtype": "Image",
-   "label": "Image1_ Cabine Inspection"
+   "label": "Image1_ Cabine Inspection",
+   "options": "image1_cabine_inspection"
   },
   {
    "fieldname": "image2_cabine_inspection",
@@ -649,7 +672,8 @@
   {
    "fieldname": "image2__cabine_inspection",
    "fieldtype": "Image",
-   "label": "Image2_ Cabine Inspection"
+   "label": "Image2_ Cabine Inspection",
+   "options": "image2_cabine_inspection"
   },
   {
    "default": "No",
@@ -666,7 +690,8 @@
   {
    "fieldname": "image1__operational_inspection",
    "fieldtype": "Image",
-   "label": "Image1_ Operational Inspection"
+   "label": "Image1_ Operational Inspection",
+   "options": "image1_operational_inspection"
   },
   {
    "fieldname": "image2_operational_inspection",
@@ -676,7 +701,8 @@
   {
    "fieldname": "image2__operational_inspection",
    "fieldtype": "Image",
-   "label": "Image2_ Operational Inspection"
+   "label": "Image2_ Operational Inspection",
+   "options": "image2_operational_inspection"
   },
   {
    "default": "No",
@@ -693,7 +719,8 @@
   {
    "fieldname": "image1__panel_inspection",
    "fieldtype": "Image",
-   "label": "Image1_ Panel Inspection"
+   "label": "Image1_ Panel Inspection",
+   "options": "image1_panel_inspection"
   },
   {
    "fieldname": "image2_panel_inspection",
@@ -703,7 +730,8 @@
   {
    "fieldname": "image2__panel_inspection",
    "fieldtype": "Image",
-   "label": "Image2_ Panel Inspection"
+   "label": "Image2_ Panel Inspection",
+   "options": "image2_panel_inspection"
   },
   {
    "default": "No",
@@ -720,7 +748,8 @@
   {
    "fieldname": "image1__breaks_inspection",
    "fieldtype": "Image",
-   "label": "Image1_ Breaks Inspection"
+   "label": "Image1_ Breaks Inspection",
+   "options": "image1_breaks_inspection"
   },
   {
    "fieldname": "image2_breaks_inspection",
@@ -730,7 +759,8 @@
   {
    "fieldname": "image2__breaks_inspection",
    "fieldtype": "Image",
-   "label": "Image2_ Breaks Inspection"
+   "label": "Image2_ Breaks Inspection",
+   "options": "image2_breaks_inspection"
   },
   {
    "default": "No",
@@ -747,7 +777,8 @@
   {
    "fieldname": "image1__general_view",
    "fieldtype": "Image",
-   "label": "Image1_ General View"
+   "label": "Image1_ General View",
+   "options": "image1_general_view"
   },
   {
    "fieldname": "image2_general_view",
@@ -757,7 +788,8 @@
   {
    "fieldname": "image2__general_view",
    "fieldtype": "Image",
-   "label": "Image2_ General View"
+   "label": "Image2_ General View",
+   "options": "image2_general_view"
   },
   {
    "default": "No",
@@ -774,7 +806,8 @@
   {
    "fieldname": "image1__leakage_inspection",
    "fieldtype": "Image",
-   "label": "Image1_ Leakage Inspection"
+   "label": "Image1_ Leakage Inspection",
+   "options": "image1_leakage_inspection"
   },
   {
    "fieldname": "image2_leakage_inspection",
@@ -784,7 +817,8 @@
   {
    "fieldname": "image2__leakage_inspection",
    "fieldtype": "Image",
-   "label": "Image2_ Leakage Inspection"
+   "label": "Image2_ Leakage Inspection",
+   "options": "image2_leakage_inspection"
   },
   {
    "default": "No",
@@ -801,7 +835,8 @@
   {
    "fieldname": "image1__spreader_inspection",
    "fieldtype": "Image",
-   "label": "Image1_ Spreader Inspection"
+   "label": "Image1_ Spreader Inspection",
+   "options": "image1_spreader_inspection"
   },
   {
    "fieldname": "image2_spreader_inspection",
@@ -811,7 +846,8 @@
   {
    "fieldname": "image2__spreader_inspection",
    "fieldtype": "Image",
-   "label": "Image2_ Spreader Inspection"
+   "label": "Image2_ Spreader Inspection",
+   "options": "image2_spreader_inspection"
   },
   {
    "default": "No",
@@ -828,7 +864,8 @@
   {
    "fieldname": "image1__water_inspection",
    "fieldtype": "Image",
-   "label": "Image1_ Water Inspection"
+   "label": "Image1_ Water Inspection",
+   "options": "image1_water_inspection"
   },
   {
    "fieldname": "image2_water_inspection",
@@ -838,7 +875,8 @@
   {
    "fieldname": "image2__water_inspection",
    "fieldtype": "Image",
-   "label": "Image2_ Water Inspection"
+   "label": "Image2_ Water Inspection",
+   "options": "image2_water_inspection"
   },
   {
    "default": "No",
@@ -855,7 +893,8 @@
   {
    "fieldname": "image1__fuel_inspection",
    "fieldtype": "Image",
-   "label": "Image1_ Fuel Inspection"
+   "label": "Image1_ Fuel Inspection",
+   "options": "image1_fuel_inspection"
   },
   {
    "fieldname": "image2_fuel_inspection",
@@ -865,7 +904,8 @@
   {
    "fieldname": "image2__fuel_inspection",
    "fieldtype": "Image",
-   "label": "Image2_ Fuel Inspection"
+   "label": "Image2_ Fuel Inspection",
+   "options": "image2_fuel_inspection"
   },
   {
    "default": "No",
@@ -882,7 +922,8 @@
   {
    "fieldname": "image1__mirrors_inspection",
    "fieldtype": "Image",
-   "label": "Image1_ Mirrors Inspection"
+   "label": "Image1_ Mirrors Inspection",
+   "options": "image1_mirrors_inspection"
   },
   {
    "fieldname": "image2_mirrors_inspection",
@@ -892,7 +933,8 @@
   {
    "fieldname": "image2__mirrors_inspection",
    "fieldtype": "Image",
-   "label": "Image2_ Mirrors Inspection"
+   "label": "Image2_ Mirrors Inspection",
+   "options": "image2_mirrors_inspection"
   },
   {
    "default": "No",
@@ -909,7 +951,8 @@
   {
    "fieldname": "image1__seat_belt_inspection",
    "fieldtype": "Image",
-   "label": "Image1_ Seat Belt Inspection"
+   "label": "Image1_ Seat Belt Inspection",
+   "options": "image1_seat_belt_inspection"
   },
   {
    "fieldname": "image2_seat_belt_inspection",
@@ -919,7 +962,8 @@
   {
    "fieldname": "image2__seat_belt_inspection",
    "fieldtype": "Image",
-   "label": "Image2_ Seat Belt Inspection"
+   "label": "Image2_ Seat Belt Inspection",
+   "options": "image2_seat_belt_inspection"
   },
   {
    "default": "No",
@@ -936,7 +980,8 @@
   {
    "fieldname": "image1__battery_inspection",
    "fieldtype": "Image",
-   "label": "Image1_ Battery Inspection"
+   "label": "Image1_ Battery Inspection",
+   "options": "image1_battery_inspection"
   },
   {
    "fieldname": "image2_battery_inspection",
@@ -946,7 +991,8 @@
   {
    "fieldname": "image2__battery_inspection",
    "fieldtype": "Image",
-   "label": "Image2_ Battery Inspection"
+   "label": "Image2_ Battery Inspection",
+   "options": "image2_battery_inspection"
   },
   {
    "default": "No",
@@ -963,7 +1009,8 @@
   {
    "fieldname": "image1__hoses_inspection",
    "fieldtype": "Image",
-   "label": "Image1_ Hoses Inspection"
+   "label": "Image1_ Hoses Inspection",
+   "options": "image1_hoses_inspection"
   },
   {
    "fieldname": "image2_hoses_inspection",
@@ -973,7 +1020,8 @@
   {
    "fieldname": "image2__hoses_inspection",
    "fieldtype": "Image",
-   "label": "Image2_ Hoses Inspection"
+   "label": "Image2_ Hoses Inspection",
+   "options": "image2_hoses_inspection"
   },
   {
    "default": "No",
@@ -990,7 +1038,8 @@
   {
    "fieldname": "image1__chains_inspection",
    "fieldtype": "Image",
-   "label": "Image1_ Chains Inspection"
+   "label": "Image1_ Chains Inspection",
+   "options": "image1_chains_inspection"
   },
   {
    "fieldname": "image2_chains_inspection",
@@ -1000,7 +1049,8 @@
   {
    "fieldname": "image2__chains_inspection",
    "fieldtype": "Image",
-   "label": "Image2_ Chains Inspection"
+   "label": "Image2_ Chains Inspection",
+   "options": "image2_chains_inspection"
   },
   {
    "default": "No",
@@ -1017,7 +1067,8 @@
   {
    "fieldname": "image1__forks_inspection",
    "fieldtype": "Image",
-   "label": "Image1_ Forks Inspection"
+   "label": "Image1_ Forks Inspection",
+   "options": "image1_forks_inspection"
   },
   {
    "fieldname": "image2_forks_inspection",
@@ -1027,7 +1078,8 @@
   {
    "fieldname": "image2__forks_inspection",
    "fieldtype": "Image",
-   "label": "Image2_ Forks Inspection"
+   "label": "Image2_ Forks Inspection",
+   "options": "image2_forks_inspection"
   },
   {
    "default": "No",
@@ -1044,7 +1096,8 @@
   {
    "fieldname": "image1__lights_inspection",
    "fieldtype": "Image",
-   "label": "Image1_ Lights Inspection"
+   "label": "Image1_ Lights Inspection",
+   "options": "image1_lights_inspection"
   },
   {
    "fieldname": "image2_lights_inspection",
@@ -1054,7 +1107,8 @@
   {
    "fieldname": "image2__lights_inspection",
    "fieldtype": "Image",
-   "label": "Image2_ Lights Inspection"
+   "label": "Image2_ Lights Inspection",
+   "options": "image2_lights_inspection"
   },
   {
    "default": "No",
@@ -1071,7 +1125,8 @@
   {
    "fieldname": "image1__alarm_inspection",
    "fieldtype": "Image",
-   "label": "Image1_ Alarm Inspection"
+   "label": "Image1_ Alarm Inspection",
+   "options": "image1_alarm_inspection"
   },
   {
    "fieldname": "image2_alarm_inspection",
@@ -1081,7 +1136,8 @@
   {
    "fieldname": "image2__alarm_inspection",
    "fieldtype": "Image",
-   "label": "Image2_ Alarm Inspection"
+   "label": "Image2_ Alarm Inspection",
+   "options": "image2_alarm_inspection"
   },
   {
    "fieldname": "amended_from",
@@ -1819,7 +1875,7 @@
   }
  ],
  "is_submittable": 1,
- "modified": "2023-02-27 19:52:03.878289",
+ "modified": "2023-02-27 21:00:44.349033",
  "modified_by": "Administrator",
  "module": "Blocos Dop",
  "name": "Notepad DOP_v1",

@@ -1099,6 +1099,7 @@
    "options": "Item"
   },
   {
+   "fetch_from": "equipment_number.item_name",
    "fieldname": "equipment_name",
    "fieldtype": "Data",
    "label": "Equipment Name"
@@ -1151,6 +1152,7 @@
    "label": "Technician Signature"
   },
   {
+   "default": "Not Available",
    "fieldname": "certification",
    "fieldtype": "Select",
    "label": "Certification",
@@ -1817,7 +1819,7 @@
   }
  ],
  "is_submittable": 1,
- "modified": "2023-02-25 00:03:54.853914",
+ "modified": "2023-02-27 19:52:03.878289",
  "modified_by": "Administrator",
  "module": "Blocos Dop",
  "name": "Notepad DOP_v1",
